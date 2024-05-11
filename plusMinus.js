@@ -1,7 +1,7 @@
 function plusMinus(arr){
-    let positive;
-    let negative;
-    let zero;
+    let positive = 0;
+    let negative = 0;
+    let zero = 0;
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] > 0){
             positive += 1;
@@ -20,3 +20,4 @@ function plusMinus(arr){
 
 plusMinus([1, 1, 0, -1, -1])
 
+ 
