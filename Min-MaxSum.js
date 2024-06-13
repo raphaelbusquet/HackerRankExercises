@@ -1,5 +1,4 @@
 function miniMaxSum(arr) {
-    // Write your code here
     let sum = 0;
     let minSum = 0;
     let maxSum = 0;
