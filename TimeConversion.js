@@ -18,3 +18,7 @@ function timeConversion(s) {
    
    return militaryHour + s.substring(2,8);
 }
+
+    // 12AM => 00:00
+    // 01AM - 12PM = Same
+    // 01PM - 11PM = Same + 12
