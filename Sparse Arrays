@@ -1,4 +1,4 @@
-let result = []; 
+let results = []; 
     
     queries.forEach((query) => {
         let i = 0;
@@ -7,7 +7,7 @@ let result = [];
                 i++;
             }
         })
-        result.push(i);
+        results.push(i);
     })
     
-    return result;
+    return results;
