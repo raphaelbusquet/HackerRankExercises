@@ -1,0 +1,13 @@
+let result = []; 
+    
+    queries.forEach((query) => {
+        let i = 0;
+        strings.forEach((string) =>{
+            if (query === string){
+                i++;
+            }
+        })
+        result.push(i);
+    })
+    
+    return result;
