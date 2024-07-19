@@ -1,7 +1,7 @@
-let lonelyInterger = 0;
-    
-for (let i = 0; i < a.length; i++){ 
-    lonelyInterger ^= a[i];
+let lonelyInteger = 0;
+
+for (let num of a){
+    lonelyInteger ^= num;
 }
 
-return lonelyInterger;
+return lonelyInteger;
